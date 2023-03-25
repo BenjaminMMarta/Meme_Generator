@@ -1,0 +1,90 @@
+/*General backgroud styling*/
+body {
+    background-color: rgb(43, 43, 43);
+    margin: 0px;
+}
+
+/*Form general styling*/
+#generator {
+    background-color: rgb(155, 81, 81);
+    border: solid 12px;
+    margin: 0px;
+}
+
+/*Form title styling*/
+h1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: rgb(218, 208, 196);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    letter-spacing: 40px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+/*Form input fields styling*/
+.textInput {
+    font-family: 'Josefin Sans', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 25px;
+    color: black;
+}
+
+input {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(218, 208, 196);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    height: 100px;
+    width: 400px;
+}
+
+/*Form submit button styling*/
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#submitButton {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(34, 34, 34);
+    background-color: rgb(218, 208, 196);
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+}
+
+/*Meme display section*/
+#displayCreatedMemeSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+
+#newMemeDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
