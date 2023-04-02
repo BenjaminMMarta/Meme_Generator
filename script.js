@@ -31,7 +31,7 @@ submitButton.addEventListener("click", function (event) {
     newMemeImage.style.height = "400px";
     newMemeImage.style.width = "400px";
 
-    //Create container div for meme image top text.
+    //Create container for meme image top text.
     const newMemeImageTopTextContainer = document.createElement('div');
     newMemeImageTopTextContainer.classList.add("newMemeTopTextDiv");
     newMemeImageTopTextContainer.setAttribute("id", "newMemeImageTopTextContainer");
